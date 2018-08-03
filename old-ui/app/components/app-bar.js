@@ -240,7 +240,7 @@ module.exports = class AppBar extends Component {
         },
       }, [
         h('.menu-icon.diamond'),
-        'Main Ethereum Network',
+        'Main Ethereum Classic Network',
         providerType === 'mainnet'
           ? h('.check', '✓')
           : null,
