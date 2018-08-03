@@ -567,7 +567,7 @@
     "message": "seed words only have lowercase characters"
   },
   "mainnet": {
-    "message": "Main Ethereum Network"
+    "message": "Main Ethereum Classic Network"
   },
   "menu": {
     "message": "Menu"
@@ -812,7 +812,7 @@
     "message": "Current RPC"
   },
   "connectingToMainnet": {
-    "message": "Connecting to Main Ethereum Network"
+    "message": "Connecting to Main Ethereum Classic Network"
   },
   "connectingToRopsten": {
     "message": "Connecting to Ropsten Test Network"
