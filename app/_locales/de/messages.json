@@ -75,7 +75,7 @@
     "message": "Mit Dharma ausleihen (Beta)"
   },
     "builtInCalifornia": {
-    "message": "MetaMask wurde in Kalifornien entwickelt und gebaut."
+    "message": "ETCMetaMask wurde in Kalifornien entwickelt und gebaut."
   },
   "buy": {
     "message": "Kaufen"
@@ -465,7 +465,7 @@
     "message": "Nachricht"
   },
   "metamaskDescription": {
-    "message": "MetaMask ist ein sicherer Identitätssafe für Ethereum."
+    "message": "ETCMetaMask ist ein sicherer Identitätssafe für Ethereum."
   },
   "min": {
     "message": "Minimum"

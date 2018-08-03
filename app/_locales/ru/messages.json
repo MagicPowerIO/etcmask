@@ -75,7 +75,7 @@
     "message": "Взять в долг на Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "MetaMask спроектирован и разработан в Калифорнии."
+    "message": "ETCMetaMask спроектирован и разработан в Калифорнии."
   },
   "buy": {
     "message": "Купить"
@@ -468,7 +468,7 @@
     "message": "Сообщение"
   },
   "metamaskDescription": {
-    "message": "MetaMask – безопасный кошелек для Ethereum."
+    "message": "ETCMetaMask – безопасный кошелек для Ethereum."
   },
   "min": {
     "message": "Минимум"

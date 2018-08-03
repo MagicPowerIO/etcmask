@@ -75,7 +75,7 @@
     "message": "Pújčit si přes Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "MetaMask je navržen a vytvořen v Kalifornii."
+    "message": "ETCMetaMask je navržen a vytvořen v Kalifornii."
   },
   "buy": {
     "message": "Koupit"
@@ -474,7 +474,7 @@
     "message": "Zpráva"
   },
   "metamaskDescription": {
-    "message": "MetaMask je bezpečný osobní trezor pro Ethereum."
+    "message": "ETCMetaMask je bezpečný osobní trezor pro Ethereum."
   },
   "min": {
     "message": "Minimum"

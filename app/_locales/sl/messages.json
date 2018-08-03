@@ -72,7 +72,7 @@
     "message": "Izposoja z Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "MetaMask je ustvarjen v Kaliforniji."
+    "message": "ETCMetaMask je ustvarjen v Kaliforniji."
   },
   "buy": {
     "message": "Kupi"
@@ -441,7 +441,7 @@
     "message": "Sporočilo"
   },
   "metamaskDescription": {
-    "message": "MetaMask je varen identitetni sklad za Ethereum."
+    "message": "ETCMetaMask je varen identitetni sklad za Ethereum."
   },
   "min": {
     "message": "Najmanj"

@@ -72,7 +72,7 @@
     "message": "ยืมด้วย Dharma (เบต้า)"
   },
   "builtInCalifornia": {
-    "message": "MetaMask ออกแบบและพัฒนาที่แคลิฟอร์เนีย"
+    "message": "ETCMetaMask ออกแบบและพัฒนาที่แคลิฟอร์เนีย"
   },
   "buy": {
     "message": "ซื้อ"
@@ -441,7 +441,7 @@
     "message": "ข้อความ"
   },
   "metamaskDescription": {
-    "message": "MetaMask คือที่เก็บตัวตนนิรภัยสำหรับอีเธอเรียม"
+    "message": "ETCMetaMask คือที่เก็บตัวตนนิรภัยสำหรับอีเธอเรียม"
   },
   "min": {
     "message": "ขั้นต่ำ"
