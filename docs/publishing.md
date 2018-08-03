@@ -1,6 +1,6 @@
 # Publishing Guide
 
-When publishing a new version of MetaMask, we follow this procedure:
+When publishing a new version of ETCMetaMask, we follow this procedure:
 
 ## Preparation
 

@@ -33,7 +33,7 @@ module.exports = class NewUiAnnouncement extends PureComponent {
           }, '×'),
         ]),
         h('section.new-ui-announcement__body', [
-          h('h1', 'A New Version of MetaMask'),
+          h('h1', 'A New Version of ETCMetaMask'),
           h('p', [
             "We're excited to announce a brand-new version of MetaMask with enhanced features and functionality.",
           ]),
@@ -71,7 +71,7 @@ module.exports = class NewUiAnnouncement extends PureComponent {
           ]),
         ]),
         h('section.new-ui-announcement__footer', [
-          h('h1', 'Ready to try the new MetaMask?'),
+          h('h1', 'Ready to try the new ETCMetaMask?'),
           h('button.positive', {
             onClick: this.switchToNewUi,
           }, 'Try it now'),
