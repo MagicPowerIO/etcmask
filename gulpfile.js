@@ -529,14 +529,14 @@ function bundleTask (opts) {
     }
 
     // Minification
-    if (opts.minifyBuild) {
-      buildStream = buildStream
-      .pipe(uglify({
-        mangle: {
-          reserved: [ 'MetamaskInpageProvider' ],
-        },
-      }))
-    }
+    // if (opts.minifyBuild) {
+    //   buildStream = buildStream
+    //   .pipe(uglify({
+    //     mangle: {
+    //       reserved: [ 'MetamaskInpageProvider' ],
+    //     },
+    //   }))
+    // }
 
     // Finalize Source Maps (writes .map file)
     if (opts.buildSourceMaps) {
