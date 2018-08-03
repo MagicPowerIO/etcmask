@@ -151,5 +151,6 @@ function navigateTo (url) {
 
 function etherscanLinkFor (txHash, network) {
   const prefix = prefixForNetwork(network)
-  return `https://${prefix}etherscan.io/tx/${txHash}`
+  // return `https://${prefix}/tx/${txHash}`
+  return `https://gastracker.io/tx/${txHash}`
 }

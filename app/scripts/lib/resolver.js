@@ -39,7 +39,8 @@ function ens (name, provider) {
 function getProvider (type) {
   switch (type) {
     case 'mainnet':
-      return 'https://mainnet.infura.io/'
+      // return 'https://mainnet.infura.io/'
+      return 'https://etc-geth.0xinfra.com/'
     case 'ropsten':
       return 'https://ropsten.infura.io/'
     default:

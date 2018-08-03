@@ -107,10 +107,16 @@ class CurrencyController {
     let currentCurrency
     try {
       currentCurrency = this.getCurrentCurrency()
-      const response = await fetch(`https://api.infura.io/v1/ticker/eth${currentCurrency.toLowerCase()}`)
+      // const response = await fetch(`https://api.infura.io/v1/ticker/eth${currentCurrency.toLowerCase()}`)
+      // const parsedResponse = await response.json()
+      // this.setConversionRate(Number(parsedResponse.bid))
+      // this.setConversionDate(Number(parsedResponse.timestamp))
+
+      // https://min-api.cryptocompare.com/data/price?fsym=ETC&tsyms=USD
+      const response = await fetch(`https://min-api.cryptocompare.com/data/price?fsym=ETC&tsyms=${currentCurrency.toUpperCase()}`)
       const parsedResponse = await response.json()
-      this.setConversionRate(Number(parsedResponse.bid))
-      this.setConversionDate(Number(parsedResponse.timestamp))
+      this.setConversionRate(Number(parsedResponse[`${currentCurrency.toUpperCase()}`]))
+      this.setConversionDate(Number(Date.parse(new Date()) / 1000))
     } catch (err) {
       log.warn(`MetaMask - Failed to query currency conversion:`, currentCurrency, err)
       this.setConversionRate(0)

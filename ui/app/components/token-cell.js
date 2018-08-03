@@ -155,10 +155,12 @@ function navigateTo (url) {
 
 function etherscanLinkFor (tokenAddress, address, network) {
   const prefix = prefixForNetwork(network)
-  return `https://${prefix}etherscan.io/token/${tokenAddress}?a=${address}`
+  // return `https://${prefix}etherscan.io/token/${tokenAddress}?a=${address}`
+  return `https://gastracker.io/token/${tokenAddress}/${address}`
 }
 
 function tokenFactoryFor (tokenAddress) {
-  return `https://tokenfactory.surge.sh/#/token/${tokenAddress}`
+  // return `https://tokenfactory.surge.sh/#/token/${tokenAddress}`
+  return `https://gastracker.io/token/${tokenAddress}`
 }
 
