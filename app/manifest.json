@@ -61,6 +61,7 @@
     "http://localhost:8545/",
     "https://*.infura.io/",
     "https://*.0xinfra.com/",
+    "https://*.cryptocompare.com/",
     "activeTab",
     "webRequest",
     "*://*.eth/",
