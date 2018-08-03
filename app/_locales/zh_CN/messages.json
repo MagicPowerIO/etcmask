@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "ETCMetaMask",
     "description": "The name of the application"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Borrow With Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "MetaMask在加利福尼亚设计和制造。"
+    "message": "ETCMetaMask在加利福尼亚设计和制造。"
   },
   "buy": {
     "message": "购买"
