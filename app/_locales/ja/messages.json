@@ -601,13 +601,13 @@
     "message": "送信"
   },
   "sendETH": {
-    "message": "ETHの送信"
+    "message": "ETCの送信"
   },
   "sendTokens": {
     "message": "トークンを送信"
   },
   "onlySendToEtherAddress": {
-    "message": "ETH はイーサリウムアカウントのみに送信できます。"
+    "message": "ETC はイーサリウムアカウントのみに送信できます。"
   },
   "onlySendTokensToAccountAddress": {
     "message": "$1 はイーサリアムアカウントのみに送信できます。",

@@ -576,7 +576,7 @@
     "message": "Message"
   },
   "metamaskDescription": {
-    "message": "ETCMetaMask is a secure identity vault for Ethereum."
+    "message": "ETCMetaMask is a secure identity vault for Ethereum Classic."
   },
   "metamaskSeedWords": {
     "message": "ETCMetaMask Seed Words"
@@ -602,7 +602,7 @@
     "description": "Password and file needed to import an account"
   },
   "negativeETH": {
-    "message": "Can not send negative amounts of ETH."
+    "message": "Can not send negative amounts of ETC."
   },
   "networks": {
     "message": "Networks"
@@ -880,7 +880,7 @@
     "message": "Send"
   },
   "sendETH": {
-    "message": "Send ETH"
+    "message": "Send ETC"
   },
   "sendTokens": {
     "message": "Send Tokens"
@@ -889,7 +889,7 @@
     "message": "Separate each word with a single space"
   },
   "onlySendToEtherAddress": {
-    "message": "Only send ETH to an Ethereum address."
+    "message": "Only send ETC to an Ethereum address."
   },
   "onlySendTokensToAccountAddress": {
     "message": "Only send $1 to an Ethereum account address.",
@@ -1004,7 +1004,7 @@
     "message": "To: "
   },
   "toETHviaShapeShift": {
-    "message": "$1 to ETH via ShapeShift",
+    "message": "$1 to ETC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

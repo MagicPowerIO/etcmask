@@ -400,7 +400,7 @@ describe('MetaMask', function () {
     })
   })
 
-  describe('Send ETH from inside MetaMask', () => {
+  describe('Send ETC from inside MetaMask', () => {
     it('starts to send a transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()
@@ -449,7 +449,7 @@ describe('MetaMask', function () {
     })
   })
 
-  describe('Send ETH from dapp', () => {
+  describe('Send ETC from dapp', () => {
     it('starts a send transaction inside the dapp', async () => {
       await openNewPage(driver, 'http://127.0.0.1:8080/')
       await delay(regularDelayMs)
@@ -543,7 +543,7 @@ describe('MetaMask', function () {
       await delay(regularDelayMs)
     })
 
-    it('calls and confirms a contract method where ETH is sent', async () => {
+    it('calls and confirms a contract method where ETC is sent', async () => {
       await driver.switchTo().window(dapp)
       await delay(regularDelayMs)
 
@@ -595,7 +595,7 @@ describe('MetaMask', function () {
       assert(firstTxAddress.match(/^0x\w{8}\.{3}\w{4}$/))
     })
 
-    it('calls and confirms a contract method where ETH is received', async () => {
+    it('calls and confirms a contract method where ETC is received', async () => {
       await driver.switchTo().window(dapp)
       await delay(regularDelayMs)
 
@@ -624,7 +624,7 @@ describe('MetaMask', function () {
       await driver.switchTo().window(extension)
     })
 
-    it('renders the correct ETH balance', async () => {
+    it('renders the correct ETC balance', async () => {
       const balance = await findElement(driver, By.css('.tx-view .balance-display .token-amount'))
       await delay(regularDelayMs)
       if (process.env.SELENIUM_BROWSER !== 'firefox') {

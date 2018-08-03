@@ -488,7 +488,7 @@
     "description": "Passwort und Datei sind notwendig um einen Account zu importieren"
   },
   "negativeETH": {
-    "message": "Negative ETH Beträge können nicht versendet werden."
+    "message": "Negative ETC Beträge können nicht versendet werden."
   },
   "networks": {
     "message": "Netzwerke"
@@ -694,13 +694,13 @@
     "message": "Senden"
   },
   "sendETH": {
-    "message": "ETH senden"
+    "message": "ETC senden"
   },
   "sendTokens": {
     "message": "Token senden"
   },
   "onlySendToEtherAddress": {
-    "message": "ETH unbedingt nur zu einer Ethereum Adresse senden."
+    "message": "ETC unbedingt nur zu einer Ethereum Adresse senden."
   },
   "sendTokensAnywhere": {
     "message": "Token zu einer beliebigen Person mit einem Ethereumaccount senden"
@@ -778,7 +778,7 @@
     "message": "An:"
   },
   "toETHviaShapeShift": {
-    "message": "$1 an ETH via ShapeShift",
+    "message": "$1 an ETC via ShapeShift",
     "description": "Das System wird den Einzahlungstyp im Beginn der Nachricht eintragen"
   },
   "tokenAddress": {

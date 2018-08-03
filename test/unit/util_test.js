@@ -126,13 +126,13 @@ describe('util', function () {
       assert.equal(result, 'None', 'should return "None"')
     })
 
-    it('should return eth as string followed by ETH', function () {
+    it('should return eth as string followed by ETC', function () {
       var input = new ethUtil.BN(ethInWei, 10).toJSON()
       var result = util.formatBalance(input, 4)
       assert.equal(result, '1.0000 ETH')
     })
 
-    it('should return eth as string followed by ETH', function () {
+    it('should return eth as string followed by ETC', function () {
       var input = new ethUtil.BN(ethInWei, 10).div(new ethUtil.BN('2', 10)).toJSON()
       var result = util.formatBalance(input, 3)
       assert.equal(result, '0.500 ETH')
@@ -153,7 +153,7 @@ describe('util', function () {
       var result = util.formatBalance(input)
       assert.equal(result, '0.00032 ETH')
     })
-    it('should not parse the balance and return value with 2 decimal points with ETH at the end', function () {
+    it('should not parse the balance and return value with 2 decimal points with ETC at the end', function () {
       var value = '1.2456789'
       var needsParse = false
       var result = util.formatBalance(value, 2, needsParse)

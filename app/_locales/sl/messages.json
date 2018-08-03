@@ -191,7 +191,7 @@
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
   "depositEth": {
-    "message": "Vplačilo ETH"
+    "message": "Vplačilo ETC"
   },
   "depositEther": {
     "message": "Vplačilo ethera"

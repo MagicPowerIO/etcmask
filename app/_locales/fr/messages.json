@@ -541,7 +541,7 @@
     "message": "Destinataire"
   },
   "toETHviaShapeShift": {
-    "message": "$1 à ETH via ShapeShift",
+    "message": "$1 à ETC via ShapeShift",
     "description": "le système remplira le type de dépôt au début du message"
   },
   "tokenBalance": {

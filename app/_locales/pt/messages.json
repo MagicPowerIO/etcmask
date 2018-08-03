@@ -464,7 +464,7 @@
     "description": "Palavra-passe e ficheiro necessários para importar uma conta"
   },
   "negativeETH": {
-    "message": "Não é possível enviar valores negativos de ETH."
+    "message": "Não é possível enviar valores negativos de ETC."
   },
   "networks": {
     "message": "Redes"
@@ -643,7 +643,7 @@
     "message": "Enviar"
   },
   "sendETH": {
-    "message": "Enviar ETH"
+    "message": "Enviar ETC"
   },
   "sendTokens": {
     "message": "Enviar Tokens"
@@ -712,7 +712,7 @@
     "message": "Para"
   },
   "toETHviaShapeShift": {
-    "message": "$1 para ETH via ShapeShift",
+    "message": "$1 para ETC via ShapeShift",
     "description": "o sistema irá preencher o tipo de depósito no início da mensagem"
   },
   "tokenAddress": {
