@@ -18,7 +18,7 @@ The core functionality of MetaMask all lives in what we call [The MetaMask Contr
 
 #### Constructor
 
-When calling `new ETCMetaMask(opts)`, many platform-specific options are configured. The keys on `opts` are as follows:
+When calling `new ETCMask(opts)`, many platform-specific options are configured. The keys on `opts` are as follows:
 
 - initState: The last emitted state, used for restoring persistent state between sessions.
 - platform: The `platform` object defines a variety of platform-specific functions, including opening the confirmation view, and opening web sites.

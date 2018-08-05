@@ -121,7 +121,7 @@ class CreatePasswordScreen extends Component {
               height="225"
             />
             <div className="info">
-              ETCMetaMask is a secure identity vault for Ethereum Classic.
+              ETCMask is a secure identity vault for Ethereum Classic.
             </div>
             <div className="info">
               It allows you to hold ether & tokens, and interact with decentralized applications.

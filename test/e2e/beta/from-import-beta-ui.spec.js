@@ -272,7 +272,7 @@ describe('Using MetaMask with an existing account', function () {
     })
   })
 
-  describe('Send ETC from inside ETCMetaMask', () => {
+  describe('Send ETC from inside ETCMask', () => {
     it('starts to send a transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()

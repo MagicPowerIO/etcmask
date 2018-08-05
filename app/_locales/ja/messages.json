@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "ETCMetaMask",
+    "message": "ETCMask",
     "description": "The name of the application"
   },
   "attemptingConnect": {
@@ -353,7 +353,7 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
-    "message": "ETCMetaMaskアカウントで入手したトークンを検索できます。"
+    "message": "ETCMaskアカウントで入手したトークンを検索できます。"
   },
   "kovan": {
     "message": "Kovanテストネットワーク"
@@ -414,7 +414,7 @@
     "message": "一つ以上のトークンを選択してください。"
   },
   "needEtherInWallet": {
-    "message": "ETCMetaMaskで分散型アプリケーションを使用するためには、このウォレットにEtherが必要です。"
+    "message": "ETCMaskで分散型アプリケーションを使用するためには、このウォレットにEtherが必要です。"
   },
   "needImportFile": {
     "message": "インポートするファイルを選択してください。",
@@ -687,7 +687,7 @@
     "message": "トークンシンボル"
   },
   "tokenWarning1": {
-    "message": "ETCMetaMaskのアカウントで取得したアカウントのみ追加できます。他のアカウントを使用して取得したトークンは、カスタムトークンを使用してください。"
+    "message": "ETCMaskのアカウントで取得したアカウントのみ追加できます。他のアカウントを使用して取得したトークンは、カスタムトークンを使用してください。"
   },
   "total": {
     "message": "合計"
@@ -752,7 +752,7 @@
     "message": "おかえりなさい!"
   },
   "welcomeBeta": {
-    "message": "ETCMetaMask ベータ版へようこそ!"
+    "message": "ETCMask ベータ版へようこそ!"
   },
   "whatsThis": {
     "message": "この機能について"

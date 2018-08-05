@@ -34,7 +34,7 @@
     "description": "De beschrijving van de applicatie"
   },
   "appName": {
-    "message": "ETCMetaMask",
+    "message": "ETCMask",
     "description": "De naam van de applicatie"
   },
   "attemptingConnect": {
@@ -72,7 +72,7 @@
     "message": "Lenen met Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "ETCMetaMask is ontworpen en gebouwd in Californië."
+    "message": "ETCMask is ontworpen en gebouwd in Californië."
   },
   "buy": {
     "message": "Kopen"
@@ -441,7 +441,7 @@
     "message": "Bericht"
   },
   "metamaskDescription": {
-    "message": "ETCMetaMask is een veilige identiteitskluis voor Ethereum."
+    "message": "ETCMask is een veilige identiteitskluis voor Ethereum."
   },
   "min": {
     "message": "Minimum"

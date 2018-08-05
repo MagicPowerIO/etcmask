@@ -62,7 +62,7 @@ txMeta = {
   "gasPriceSpecified": false, //whether or not the user/dapp has specified gasPrice
   "gasLimitSpecified": false, //whether or not the user/dapp has specified gas
   "estimatedGas": "5208",
-  "origin": "ETCMetaMask", //debug
+  "origin": "ETCMask", //debug
   "nonceDetails": {
     "params": {
       "highestLocallyConfirmed": 0,

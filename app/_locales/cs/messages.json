@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "ETCMetaMask",
+    "message": "ETCMask",
     "description": "The name of the application"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Pújčit si přes Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "ETCMetaMask je navržen a vytvořen v Kalifornii."
+    "message": "ETCMask je navržen a vytvořen v Kalifornii."
   },
   "buy": {
     "message": "Koupit"
@@ -474,7 +474,7 @@
     "message": "Zpráva"
   },
   "metamaskDescription": {
-    "message": "ETCMetaMask je bezpečný osobní trezor pro Ethereum."
+    "message": "ETCMask je bezpečný osobní trezor pro Ethereum."
   },
   "min": {
     "message": "Minimum"

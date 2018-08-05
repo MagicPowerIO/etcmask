@@ -34,7 +34,7 @@
     "description": "Die Beschreibung der Erweiterung"
   },
   "appName": {
-    "message": "ETCMetaMask",
+    "message": "ETCMask",
     "description": "Der Name der Erweiterung"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Mit Dharma ausleihen (Beta)"
   },
     "builtInCalifornia": {
-    "message": "ETCMetaMask wurde in Kalifornien entwickelt und gebaut."
+    "message": "ETCMask wurde in Kalifornien entwickelt und gebaut."
   },
   "buy": {
     "message": "Kaufen"
@@ -465,7 +465,7 @@
     "message": "Nachricht"
   },
   "metamaskDescription": {
-    "message": "ETCMetaMask ist ein sicherer Identitätssafe für Ethereum."
+    "message": "ETCMask ist ein sicherer Identitätssafe für Ethereum."
   },
   "min": {
     "message": "Minimum"

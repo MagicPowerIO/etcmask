@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "ETCMetaMask",
+    "message": "ETCMask",
     "description": "The name of the application"
   },
   "attemptingConnect": {
@@ -72,7 +72,7 @@
     "message": "ยืมด้วย Dharma (เบต้า)"
   },
   "builtInCalifornia": {
-    "message": "ETCMetaMask ออกแบบและพัฒนาที่แคลิฟอร์เนีย"
+    "message": "ETCMask ออกแบบและพัฒนาที่แคลิฟอร์เนีย"
   },
   "buy": {
     "message": "ซื้อ"
@@ -441,7 +441,7 @@
     "message": "ข้อความ"
   },
   "metamaskDescription": {
-    "message": "ETCMetaMask คือที่เก็บตัวตนนิรภัยสำหรับอีเธอเรียม"
+    "message": "ETCMask คือที่เก็บตัวตนนิรภัยสำหรับอีเธอเรียม"
   },
   "min": {
     "message": "ขั้นต่ำ"

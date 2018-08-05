@@ -78,7 +78,7 @@ module.exports = class AppBar extends Component {
           zIndex: 12,
         },
       }, [
-        'Try the New ETCMetaMask',
+        'Try the New ETCMask',
         AppBar.renderSpace(),
         h('span.banner__link', {
           async onClick () {

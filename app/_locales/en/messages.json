@@ -40,7 +40,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "ETCMetaMask",
+    "message": "ETCMask",
     "description": "The name of the application"
   },
   "approve": {
@@ -87,7 +87,7 @@
   "message": "Your Browser is not supported..."
   },
   "builtInCalifornia": {
-    "message": "ETCMetaMask is designed and built in California."
+    "message": "ETCMask is designed and built in California."
   },
   "buy": {
     "message": "Buy"
@@ -147,7 +147,7 @@
     "message": "Connect to Trezor"
   },
   "connectToTrezorHelp": {
-    "message": "ETCMetaMask is able to access your TREZOR ethereum accounts. First make sure your device is connected and unlocked."
+    "message": "ETCMask is able to access your TREZOR ethereum accounts. First make sure your device is connected and unlocked."
   },
   "connectToTrezorTrouble": {
     "message": "If you are having trouble, please make sure you are using the latest version of the TREZOR firmware."
@@ -576,10 +576,10 @@
     "message": "Message"
   },
   "metamaskDescription": {
-    "message": "ETCMetaMask is a secure identity vault for Ethereum Classic."
+    "message": "ETCMask is a secure identity vault for Ethereum Classic."
   },
   "metamaskSeedWords": {
-    "message": "ETCMetaMask Seed Words"
+    "message": "ETCMask Seed Words"
   },
   "min": {
     "message": "Minimum"

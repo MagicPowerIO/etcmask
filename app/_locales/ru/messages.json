@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "ETCMetaMask",
+    "message": "ETCMask",
     "description": "The name of the application"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Взять в долг на Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "ETCMetaMask спроектирован и разработан в Калифорнии."
+    "message": "ETCMask спроектирован и разработан в Калифорнии."
   },
   "buy": {
     "message": "Купить"
@@ -468,7 +468,7 @@
     "message": "Сообщение"
   },
   "metamaskDescription": {
-    "message": "ETCMetaMask – безопасный кошелек для Ethereum."
+    "message": "ETCMask – безопасный кошелек для Ethereum."
   },
   "min": {
     "message": "Минимум"

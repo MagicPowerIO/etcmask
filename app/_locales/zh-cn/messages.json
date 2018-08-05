@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "ETCMetaMask",
+    "message": "ETCMask",
     "description": "The name of the application"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Borrow With Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "ETCMetaMask在加利福尼亚设计和制造。"
+    "message": "ETCMask在加利福尼亚设计和制造。"
   },
   "buy": {
     "message": "购买"
@@ -483,10 +483,10 @@
     "message": "消息"
   },
   "metamaskDescription": {
-    "message": "ETCMetaMask is a secure identity vault for Ethereum."
+    "message": "ETCMask is a secure identity vault for Ethereum."
   },
   "metamaskSeedWords": {
-    "message": "ETCMetaMask 助记词"
+    "message": "ETCMask 助记词"
   },
   "min": {
     "message": "最小"

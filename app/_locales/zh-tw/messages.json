@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "ETCMetaMask",
+    "message": "ETCMask",
     "description": "The name of the application"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "透過 Dharma (Beta) 借用"
   },
   "builtInCalifornia": {
-    "message": "ETCMetaMask 是在加州設計製造."
+    "message": "ETCMask 是在加州設計製造."
   },
   "buy": {
     "message": "購買"
@@ -362,7 +362,7 @@
     "message": "你想怎麼存入 Ether？"
   },
   "holdEther": {
-    "message": "ETCMetaMask 讓您能保存 ether 和代幣, 並成為您接觸分散式應用程式的途徑."
+    "message": "ETCMask 讓您能保存 ether 和代幣, 並成為您接觸分散式應用程式的途徑."
   },
   "import": {
     "message": "導入",
@@ -474,7 +474,7 @@
     "message": "訊息"
   },
   "metamaskDescription": {
-    "message": "ETCMetaMask 是Ethereum的安全身份識別金庫."
+    "message": "ETCMask 是Ethereum的安全身份識別金庫."
   },
   "min": {
     "message": "最小"

@@ -34,7 +34,7 @@
     "description": "La descrizione dell'applicazione"
   },
   "appName": {
-    "message": "ETCMetaMask",
+    "message": "ETCMask",
     "description": "Il nome dell'applicazione"
   },
   "attemptingConnect": {
@@ -72,7 +72,7 @@
     "message": "Prendi in presisito con Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "ETCMetaMask è progettato e costruito in California."
+    "message": "ETCMask è progettato e costruito in California."
   },
   "buy": {
     "message": "Compra"
@@ -441,7 +441,7 @@
     "message": "Messaggio"
   },
   "metamaskDescription": {
-    "message": "ETCMetaMask è una cassaforte sicura per identità su Ethereum."
+    "message": "ETCMask è una cassaforte sicura per identità su Ethereum."
   },
   "min": {
     "message": "Minimo"

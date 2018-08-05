@@ -34,7 +34,7 @@
     "description": "La descripción de la aplicación"
   },
   "appName": {
-    "message": "ETCMetaMask",
+    "message": "ETCMask",
     "description": "El nombre de la aplicación"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Pedir prestado con Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "ETCMetaMask fue diseñado y construido en California"
+    "message": "ETCMask fue diseñado y construido en California"
   },
   "buy": {
     "message": "Comprar"
@@ -477,7 +477,7 @@
     "message": "Mensaje"
   },
   "metamaskDescription": {
-    "message": "ETCMetaMask es una identidad segura en Ethereum"
+    "message": "ETCMask es una identidad segura en Ethereum"
   },
   "min": {
     "message": "Mínimo"

@@ -34,7 +34,7 @@
       "description": "Uygulama açıklaması"
     },
     "appName": {
-      "message": "ETCMetaMask",
+      "message": "ETCMask",
       "description": "Uygulama ismi"
     },
     "approved": {
@@ -75,7 +75,7 @@
       "message": "Dharma (Beta) ile ödünç al"
     },
     "builtInCalifornia": {
-      "message": "ETCMetaMask California'da tasarlandı ve yaratıldı"
+      "message": "ETCMask California'da tasarlandı ve yaratıldı"
     },
     "buy": {
       "message": "Satın al"
@@ -419,7 +419,7 @@
       "description": "Hesap alımı için düzenle"
     },
     "keepTrackTokens": {
-      "message": "ETCMetaMask hesabınızla satın aldığınız jetonların kaydını tutun."
+      "message": "ETCMask hesabınızla satın aldığınız jetonların kaydını tutun."
     },
     "kovan": {
       "message": "Kovan Test Ağı"
@@ -474,7 +474,7 @@
       "message": "Mesaj"
     },
     "metamaskDescription": {
-      "message": "ETCMetaMask Ethereum için güvenli bir kimlik kasasıdır."
+      "message": "ETCMask Ethereum için güvenli bir kimlik kasasıdır."
     },
     "min": {
       "message": "Minimum"
@@ -486,7 +486,7 @@
       "message": "En az bir jeton seçilmeli"
     },
     "needEtherInWallet": {
-      "message": "ETCMetaMask kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda Ether bulunmalıdır."
+      "message": "ETCMask kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda Ether bulunmalıdır."
     },
     "needImportFile": {
       "message": "Almak için bir dosya seçmelisiniz.",
@@ -818,7 +818,7 @@
       "message": "Jeton Sembolü"
     },
     "tokenWarning1": {
-      "message": "ETCMetaMask hesabınızla aldığınız jetonların kaydını tutun. Başka bir hesapla jetonlar satın aldıysanız, o jetonlar burada gözükmeyecektir."
+      "message": "ETCMask hesabınızla aldığınız jetonların kaydını tutun. Başka bir hesapla jetonlar satın aldıysanız, o jetonlar burada gözükmeyecektir."
     },
     "total": {
       "message": "Toplam"
@@ -843,7 +843,7 @@
       "description": "Jeton bakiyelerini görmek için bir link (burası) ile takip ediliyor"
     },
     "twelveWords": {
-      "message": "ETCMetaMask hesaplarınızı geri getirmenin tek yolu bu 12 kelimedir.\nBu kelimeleri güvenli ve gizli bir yerde saklayın."
+      "message": "ETCMask hesaplarınızı geri getirmenin tek yolu bu 12 kelimedir.\nBu kelimeleri güvenli ve gizli bir yerde saklayın."
     },
     "typePassword": {
       "message": "Parolanızı girin"
@@ -898,7 +898,7 @@
       "message": "Uyarı"
     },
     "welcomeBeta": {
-      "message": "ETCMetaMask Beta'ya Hoşgeldiniz"
+      "message": "ETCMask Beta'ya Hoşgeldiniz"
     },
     "whatsThis": {
       "message": "Bu nedir?"
