@@ -158,7 +158,7 @@ async function initialize () {
   const initState = await loadStateFromPersistence()
   const initLangCode = await getFirstPreferredLangCode()
   await setupController(initState, initLangCode)
-  log.debug('MetaMask initialization complete.')
+  log.debug('ETCMask initialization complete.')
   ipfsHandle = ipfsContent(initState.NetworkController.provider)
 }
 
@@ -192,14 +192,14 @@ async function loadStateFromPersistence () {
       // we were able to recover (though it might be old)
       versionedData = diskStoreState
       const vaultStructure = getObjStructure(versionedData)
-      raven.captureMessage('MetaMask - Empty vault found - recovered from diskStore', {
+      raven.captureMessage('ETCMask - Empty vault found - recovered from diskStore', {
         // "extra" key is required by Sentry
         extra: { vaultStructure },
       })
     } else {
       // unable to recover, clear state
       versionedData = migrator.generateInitialState(firstTimeState)
-      raven.captureMessage('MetaMask - Empty vault found - unable to recover')
+      raven.captureMessage('ETCMask - Empty vault found - unable to recover')
     }
   }
 
@@ -216,7 +216,7 @@ async function loadStateFromPersistence () {
   // migrate data
   versionedData = await migrator.migrateData(versionedData)
   if (!versionedData) {
-    throw new Error('MetaMask - migrator returned undefined')
+    throw new Error('ETCMask - migrator returned undefined')
   }
 
   // write to disk
@@ -225,7 +225,7 @@ async function loadStateFromPersistence () {
   } else {
     // throw in setTimeout so as to not block boot
     setTimeout(() => {
-      throw new Error('MetaMask - Localstore not supported')
+      throw new Error('ETCMask - Localstore not supported')
     })
   }
 
@@ -286,7 +286,7 @@ function setupController (initState, initLangCode) {
     storeTransform(versionifyData),
     createStreamSink(persistData),
     (error) => {
-      log.error('MetaMask - Persistence pipeline failed', error)
+      log.error('ETCMask - Persistence pipeline failed', error)
     }
   )
 
@@ -302,10 +302,10 @@ function setupController (initState, initLangCode) {
 
   async function persistData (state) {
     if (!state) {
-      throw new Error('MetaMask - updated state is missing', state)
+      throw new Error('ETCMask - updated state is missing', state)
     }
     if (!state.data) {
-      throw new Error('MetaMask - updated state does not have data', state)
+      throw new Error('ETCMask - updated state does not have data', state)
     }
     if (localStore.isSupported) {
       try {
@@ -353,7 +353,7 @@ function setupController (initState, initLangCode) {
       const portStream = new PortStream(remotePort)
       // communication with popup
       controller.isClientOpen = true
-      controller.setupTrustedCommunication(portStream, 'MetaMask')
+      controller.setupTrustedCommunication(portStream, 'ETCMask')
 
       if (processName === ENVIRONMENT_TYPE_POPUP) {
         popupIsOpen = true

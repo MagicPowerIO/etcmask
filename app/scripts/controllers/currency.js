@@ -118,7 +118,7 @@ class CurrencyController {
       this.setConversionRate(Number(parsedResponse[`${currentCurrency.toUpperCase()}`]))
       this.setConversionDate(Number(Date.parse(new Date()) / 1000))
     } catch (err) {
-      log.warn(`MetaMask - Failed to query currency conversion:`, currentCurrency, err)
+      log.warn(`ETCMask - Failed to query currency conversion:`, currentCurrency, err)
       this.setConversionRate(0)
       this.setConversionDate('N/A')
     }

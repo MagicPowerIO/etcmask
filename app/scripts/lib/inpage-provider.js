@@ -18,7 +18,7 @@ function MetamaskInpageProvider (connectionStream) {
     connectionStream,
     mux,
     connectionStream,
-    (err) => logStreamDisconnectWarning('MetaMask', err)
+    (err) => logStreamDisconnectWarning('ETCMask', err)
   )
 
   // subscribe to metamask public config (one-way)
@@ -27,7 +27,7 @@ function MetamaskInpageProvider (connectionStream) {
   pump(
     mux.createStream('publicConfig'),
     asStream(self.publicConfigStore),
-    (err) => logStreamDisconnectWarning('MetaMask PublicConfigStore', err)
+    (err) => logStreamDisconnectWarning('ETCMask PublicConfigStore', err)
   )
 
   // ignore phishing warning message (handled elsewhere)
@@ -39,7 +39,7 @@ function MetamaskInpageProvider (connectionStream) {
     streamMiddleware.stream,
     mux.createStream('provider'),
     streamMiddleware.stream,
-    (err) => logStreamDisconnectWarning('MetaMask RpcProvider', err)
+    (err) => logStreamDisconnectWarning('ETCMask RpcProvider', err)
   )
 
   // handle sendAsync requests via dapp-side rpc engine
@@ -56,7 +56,7 @@ MetamaskInpageProvider.prototype.sendAsync = function (payload, cb) {
   const self = this
 
   if (payload.method === 'eth_signTypedData') {
-    console.warn('MetaMask: This experimental version of eth_signTypedData will be deprecated in the next release in favor of the standard as defined in EIP-712. See https://git.io/fNzPl for more information on the new standard.')
+    console.warn('ETCMask: This experimental version of eth_signTypedData will be deprecated in the next release in favor of the standard as defined in EIP-712. See https://git.io/fNzPl for more information on the new standard.')
   }
 
   self.rpcEngine.handle(payload, cb)

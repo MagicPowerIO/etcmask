@@ -36,7 +36,7 @@ Mascot.prototype.componentDidMount = function () {
   var container = document.getElementById(targetDivId)
   // container.appendChild(this.logo.container)
   var logoImg = document.createElement("img")
-  logoImg.src = "./app/images/icon-200.png"
+  logoImg.src = "./images/icon-200.png"
   container.appendChild(logoImg)
 }
 
