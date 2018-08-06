@@ -528,15 +528,15 @@ function bundleTask (opts) {
         .pipe(sourcemaps.init({ loadMaps: true }))
     }
 
-    // Minification
-    // if (opts.minifyBuild) {
-    //   buildStream = buildStream
-    //   .pipe(uglify({
-    //     mangle: {
-    //       reserved: [ 'MetamaskInpageProvider' ],
-    //     },
-    //   }))
-    // }
+    Minification
+    if (opts.minifyBuild) {
+      buildStream = buildStream
+      .pipe(uglify({
+        mangle: {
+          reserved: [ 'MetamaskInpageProvider' ],
+        },
+      }))
+    }
 
     // Finalize Source Maps (writes .map file)
     if (opts.buildSourceMaps) {
