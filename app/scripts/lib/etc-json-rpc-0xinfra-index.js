@@ -101,8 +101,7 @@ function fetchConfigFromReq({ network, req }) {
   const { method, params } = cleanReq
 
   const fetchParams = {}
-  // let fetchUrl = `https://etc-geth.0xinfra.com/`
-  let fetchUrl = `https://etc-parity.0xinfra.com/`
+  let fetchUrl = `https://etc-geth.0xinfra.com/`
   const isPostMethod = POST_METHODS.includes(method)
   // if (isPostMethod) {
     fetchParams.method = 'POST'
