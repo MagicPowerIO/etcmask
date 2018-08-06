@@ -108,7 +108,7 @@ class AppHeader extends Component {
           >
             <img
               className="app-header__metafox"
-              src="/images/metamask-fox.svg"
+              src="/images/etcmask-dolphin.svg"
               height={42}
               width={42}
             />

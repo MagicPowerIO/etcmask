@@ -21,7 +21,7 @@ npm run version:bump $BUMP_TYPE` where `$BUMP_TYPE` is one of `major`, `minor`, 
 
 While we develop on the main `develop` branch, our production version is maintained on the `master` branch.
 
-With each pull request, the @MetaMaskBot will comment with a build of that new pull request, so after bumping the version on `develop`, open a pull request against `master`, and once the pull request is reviewed and merged, you can download those builds for publication.
+With each pull request, the @ETCMaskBot will comment with a build of that new pull request, so after bumping the version on `develop`, open a pull request against `master`, and once the pull request is reviewed and merged, you can download those builds for publication.
 
 ## Publishing
 

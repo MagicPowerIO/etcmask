@@ -38,10 +38,10 @@ const dbController = new DbController({
 start().catch(log.error)
 
 async function start () {
-  log.debug('MetaMask initializing...')
+  log.debug('ETCMask initializing...')
   const initState = await loadStateFromPersistence()
   await setupController(initState)
-  log.debug('MetaMask initialization complete.')
+  log.debug('ETCMask initialization complete.')
 }
 
 //
@@ -82,7 +82,7 @@ async function setupController (initState, client) {
     try {
       const versionedData = await versionifyData(state)
       await dbController.put(versionedData)
-    } catch (e) { console.error('METAMASK Error:', e) }
+    } catch (e) { console.error('ETCMASK Error:', e) }
   })
 
   async function versionifyData (state) {
@@ -106,7 +106,7 @@ async function setupController (initState, client) {
     var isMetaMaskInternalProcess = (context === 'popup')
     if (isMetaMaskInternalProcess) {
       // communication with popup
-      controller.setupTrustedCommunication(connectionStream, 'MetaMask')
+      controller.setupTrustedCommunication(connectionStream, 'ETCMask')
       global.metamaskPopupIsOpen = true
     } else {
       // communication with page

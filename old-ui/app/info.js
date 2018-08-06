@@ -129,7 +129,7 @@ InfoScreen.prototype.render = function () {
               h('div', [
                 h('.fa.fa-twitter', [
                   h('a.info', {
-                    href: 'https://twitter.com/metamask_io',
+                    href: '',
                     target: '_blank',
                   }, 'Follow us on Twitter'),
                 ]),
@@ -139,7 +139,7 @@ InfoScreen.prototype.render = function () {
                 h('a.info', {
                   target: '_blank',
                   style: { width: '85vw' },
-                  href: 'mailto:help@metamask.io?subject=Feedback',
+                  href: 'mailto:zachary@magicpower.io?subject=Feedback',
                 }, 'Email us!'),
               ]),
             ]),
