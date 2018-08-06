@@ -64,7 +64,7 @@ These team members are working on projects that will benefit ETCMask, but are no
 @hermanjunge
 Software Engineer
 
-Herman is currently leading the Mustekala project, a JavaScript, IPFS-based Ethereum light client.
+Herman is currently leading the Mustekala project, a JavaScript, IPFS-based Ethereum Classic light client.
 
 ## Kyokan Team Members
 

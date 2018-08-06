@@ -30,7 +30,7 @@
     "message": "Znesek + Gas"
   },
   "appDescription": {
-    "message": "Denarnica za Ethereum v brskalniku",
+    "message": "Denarnica za Ethereum Classic v brskalniku",
     "description": "The description of the application"
   },
   "appName": {
@@ -649,7 +649,7 @@
     "message": "Pošlji žetone"
   },
   "sendTokensAnywhere": {
-    "message": "Pošljite žetone vsem, ki imajo Ethereum račun"
+    "message": "Pošljite žetone vsem, ki imajo Ethereum Classic račun"
   },
   "settings": {
     "message": "Nastavitve"

@@ -27,7 +27,7 @@
     "message": "Add Tokens"
   },
   "addAcquiredTokens": {
-    "message": "Add the tokens you've acquired using MetaMask"
+    "message": "Add the tokens you've acquired using ETCMask"
   },
   "amount": {
     "message": "Amount"
@@ -36,7 +36,7 @@
     "message": "Amount + Gas"
   },
   "appDescription": {
-    "message": "Ethereum Browser Extension",
+    "message": "Ethereum Classic Browser Extension",
     "description": "The description of the application"
   },
   "appName": {
@@ -889,10 +889,10 @@
     "message": "Separate each word with a single space"
   },
   "onlySendToEtherAddress": {
-    "message": "Only send ETC to an Ethereum address."
+    "message": "Only send ETC to an Ethereum Classic address."
   },
   "onlySendTokensToAccountAddress": {
-    "message": "Only send $1 to an Ethereum account address.",
+    "message": "Only send $1 to an Ethereum Classic account address.",
     "description": "displays token symbol"
   },
   "orderOneHere": {
@@ -911,7 +911,7 @@
     "message": "These are the accounts available in your hardware wallet. Select the one you’d like to use in MetaMask."
   },
   "sendTokensAnywhere": {
-    "message": "Send Tokens to anyone with an Ethereum account"
+    "message": "Send Tokens to anyone with an Ethereum Classic account"
   },
   "settings": {
     "message": "Settings"
@@ -932,7 +932,7 @@
     "message": "3. Start using dApps and more!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Use your hardware account like you would with any Ethereum account. Log in to dApps, send Eth, buy and store ERC20 tokens and Non-Fungible tokens like CryptoKitties."
+    "message": "Use your hardware account like you would with any Ethereum Classic account. Log in to dApps, send Eth, buy and store ERC20 tokens and Non-Fungible tokens like CryptoKitties."
   },
   "info": {
   "message": "Info"

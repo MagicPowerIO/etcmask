@@ -718,13 +718,13 @@
     "message": "Odeslat tokeny"
   },
   "onlySendToEtherAddress": {
-    "message": "Posílejte jen ETC na Ethereum adresu."
+    "message": "Posílejte jen ETC na Ethereum Classic adresu."
   },
   "searchTokens": {
     "message": "Hledat tokeny"
   },
   "sendTokensAnywhere": {
-    "message": "Posílejte tokeny komukoli s Ethereum účtem"
+    "message": "Posílejte tokeny komukoli s Ethereum Classic účtem"
   },
   "settings": {
     "message": "Nastavení"

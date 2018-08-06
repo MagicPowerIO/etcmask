@@ -30,7 +30,7 @@
     "message": "Betrag + Gas"
   },
   "appDescription": {
-    "message": "Ethereum Browsererweiterung",
+    "message": "Ethereum Classic Browsererweiterung",
     "description": "Die Beschreibung der Erweiterung"
   },
   "appName": {
@@ -459,7 +459,7 @@
     "message": "Die Wörter der Seed-Wörterfolgen sind alle kleingeschrieben"
   },
   "mainnet": {
-    "message": "Ethereum Main Net"
+    "message": "Ethereum Classic Main Net"
   },
   "message": {
     "message": "Nachricht"
@@ -638,7 +638,7 @@
     "message": "Aktueller RPC"
   },
   "connectingToMainnet": {
-    "message": "Verbinde zum Ethereum Main Net"
+    "message": "Verbinde zum Ethereum Classic Main Net"
   },
   "connectingToRopsten": {
     "message": " Verbinde zum Ropsten Testnetzwerk"
@@ -700,7 +700,7 @@
     "message": "Token senden"
   },
   "onlySendToEtherAddress": {
-    "message": "ETC unbedingt nur zu einer Ethereum Adresse senden."
+    "message": "ETC unbedingt nur zu einer Ethereum Classic Adresse senden."
   },
   "sendTokensAnywhere": {
     "message": "Token zu einer beliebigen Person mit einem Ethereumaccount senden"

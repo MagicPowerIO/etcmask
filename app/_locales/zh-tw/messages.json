@@ -650,7 +650,7 @@
     "message": "當前的 RPC"
   },
   "connectingToMainnet": {
-    "message": "連線到主 Ethereum 網路"
+    "message": "連線到主 Ethereum Classic 網路"
   },
   "connectingToRopsten": {
     "message": "連線到 Ropsten 測試網路"

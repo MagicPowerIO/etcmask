@@ -30,7 +30,7 @@
       "message": "Tutar + Gas"
     },
     "appDescription": {
-      "message": "Ethereum Tarayıcı Uzantısı",
+      "message": "Ethereum Classic Tarayıcı Uzantısı",
       "description": "Uygulama açıklaması"
     },
     "appName": {
@@ -468,13 +468,13 @@
       "message": "kaynak kelimeleri sadece küçük harflerden oluşabilir."
     },
     "mainnet": {
-      "message": "Main Ethereum Ağı"
+      "message": "Main Ethereum Classic Ağı"
     },
     "message": {
       "message": "Mesaj"
     },
     "metamaskDescription": {
-      "message": "ETCMask Ethereum için güvenli bir kimlik kasasıdır."
+      "message": "ETCMask Ethereum Classic için güvenli bir kimlik kasasıdır."
     },
     "min": {
       "message": "Minimum"
@@ -650,7 +650,7 @@
       "message": "Geçerli RPC"
     },
     "connectingToMainnet": {
-      "message": "Main Ethereum Ağına bağlanıyor"
+      "message": "Main Ethereum Classic Ağına bağlanıyor"
     },
     "connectingToRopsten": {
       "message": "Ropsten Test Ağına bağlanıyor"
@@ -718,13 +718,13 @@
       "message": "Jeton Gönder"
     },
     "onlySendToEtherAddress": {
-      "message": "Ethereum adresine sadece ETC gönder."
+      "message": "Ethereum Classic adresine sadece ETC gönder."
     },
     "searchTokens": {
       "message": "Jeton ara"
     },
     "sendTokensAnywhere": {
-      "message": "Ethereum hesabı olan birine Jeton gönder"
+      "message": "Ethereum Classic hesabı olan birine Jeton gönder"
     },
     "settings": {
       "message": "Ayarlar"

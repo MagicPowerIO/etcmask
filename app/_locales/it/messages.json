@@ -30,7 +30,7 @@
     "message": "Importo + Gas"
   },
   "appDescription": {
-    "message": "Ethereum Browser Extension",
+    "message": "Ethereum Classic Browser Extension",
     "description": "La descrizione dell'applicazione"
   },
   "appName": {
@@ -175,10 +175,10 @@
     "message": "Precisione Decimali"
   }, 
   "defaultNetwork": {
-    "message": "La rete predefinita per transazioni in Ether è la Rete Ethereum Principale."
+    "message": "La rete predefinita per transazioni in Ether è la Rete Ethereum Classic Principale."
   },
   "denExplainer": {
-    "message": "Il DEN è il tuo archivio crittato con password dentro Metamask."
+    "message": "Il DEN è il tuo archivio crittato con password dentro ETCMask."
   },
   "deposit": {
     "message": "Deposita"
@@ -435,7 +435,7 @@
     "message": "le frasi seed hanno solo lettere minuscole"
   },
   "mainnet": {
-    "message": "Rete Ethereum Principale"
+    "message": "Rete Ethereum Classic Principale"
   },
   "message": {
     "message": "Messaggio"

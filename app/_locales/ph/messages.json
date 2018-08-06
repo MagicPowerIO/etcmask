@@ -24,7 +24,7 @@
     "message": "Halaga + Gas"
   },
   "appDescription": {
-    "message": "Ethereum Browser Extension",
+    "message": "Ethereum Classic Browser Extension",
     "description": "Ang deskripsyon ng application"
   },
   "appName": {
@@ -496,7 +496,7 @@
     "message": "Magpadala ng Tokens"
   },
   "sendTokensAnywhere": {
-    "message": "Magpadala ng Tokens sa sinumang may Ethereum account"
+    "message": "Magpadala ng Tokens sa sinumang may Ethereum Classic account"
   },
   "settings": {
     "message": "Mga Setting"
