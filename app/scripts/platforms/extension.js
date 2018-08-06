@@ -1,5 +1,5 @@
 const extension = require('extensionizer')
-const explorerLink = require('etherscan-link').createExplorerLink
+// const explorerLink = require('etherscan-link').createExplorerLink
 
 class ExtensionPlatform {
 
@@ -56,7 +56,8 @@ class ExtensionPlatform {
 
     this._subscribeToNotificationClicked()
 
-    const url = explorerLink(txMeta.hash, parseInt(txMeta.metamaskNetworkId))
+    // const url = explorerLink(txMeta.hash, parseInt(txMeta.metamaskNetworkId))
+    const url = etherscanLinkFor(txMeta.hash, parseInt(txMeta.metamaskNetworkId))
     const nonce = parseInt(txMeta.txParams.nonce, 16)
 
     const title = 'Confirmed transaction'
@@ -95,5 +96,12 @@ class ExtensionPlatform {
     }
   }
 }
+
+
+function etherscanLinkFor (txHash, network) {
+  // return `https://${prefix}/tx/${txHash}`
+  return `https://gastracker.io/tx/${txHash}`
+}
+
 
 module.exports = ExtensionPlatform

@@ -5,7 +5,7 @@ const connect = require('react-redux').connect
 
 const EthBalance = require('./eth-balance')
 const addressSummary = require('../util').addressSummary
-const explorerLink = require('etherscan-link').createExplorerLink
+// const explorerLink = require('etherscan-link').createExplorerLink
 const CopyButton = require('./copyButton')
 const vreme = new (require('vreme'))()
 const Tooltip = require('./tooltip')
@@ -88,7 +88,8 @@ TransactionListItem.prototype.render = function () {
         }
         event.stopPropagation()
         if (!transaction.hash || !isLinkable) return
-        var url = explorerLink(transaction.hash, parseInt(network))
+        // var url = explorerLink(transaction.hash, parseInt(network))
+        var url = etherscanLinkFor(transaction.hash, parseInt(network))
         global.platform.openWindow({ url })
       },
       style: {
@@ -218,6 +219,13 @@ function recipientField (txParams, transaction, isTx, isMsg) {
 function formatDate (date) {
   return vreme.format(new Date(date), 'March 16 2014 14:30')
 }
+
+
+function etherscanLinkFor (txHash, network) {
+  // return `https://${prefix}/tx/${txHash}`
+  return `https://gastracker.io/tx/${txHash}`
+}
+
 
 function renderErrorOrWarning (transaction) {
   const { status, err, warning } = transaction

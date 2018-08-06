@@ -22,7 +22,7 @@ module.exports = function (address, network) {
       link = `https://gastracker.io/addr/${address}`
       break
     default:
-      link = ''
+      link = `https://gastracker.io/addr/${address}`
       break
   }
 

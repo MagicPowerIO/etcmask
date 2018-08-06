@@ -3,7 +3,7 @@ const Component = require('react').Component
 const h = require('react-hyperscript')
 const connect = require('react-redux').connect
 const vreme = new (require('vreme'))()
-const explorerLink = require('etherscan-link').createExplorerLink
+// const explorerLink = require('etherscan-link').createExplorerLink
 const actions = require('../../../ui/app/actions')
 const addressSummary = require('../util').addressSummary
 
@@ -63,6 +63,12 @@ ShiftListItem.prototype.render = function () {
 
 function formatDate (date) {
   return vreme.format(new Date(date), 'March 16 2014 14:30')
+}
+
+function etherscanLinkFor (txHash, network) {
+  const prefix = prefixForNetwork(network)
+  // return `https://${prefix}/tx/${txHash}`
+  return `https://gastracker.io/tx/${txHash}`
 }
 
 ShiftListItem.prototype.renderUtilComponents = function () {
@@ -170,7 +176,7 @@ ShiftListItem.prototype.renderInfo = function () {
         }, formatDate(props.time)),
       ])
     case 'complete':
-      var url = explorerLink(props.response.transaction, parseInt('1'))
+      var url = etherscanLinkFor(props.response.transaction, parseInt('1'))
 
       return h('.flex-column.pointer', {
         style: {
