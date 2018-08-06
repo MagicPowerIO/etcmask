@@ -182,7 +182,7 @@
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
   "depositEth": {
-    "message": "ETHを入金"
+    "message": "ETCを入金"
   },
   "depositEther": {
     "message": "Etherを振込"
@@ -668,7 +668,7 @@
     "message": "送信先"
   },
   "toETHviaShapeShift": {
-    "message": "ShapeShiftで $1をETHにする",
+    "message": "ShapeShiftで $1をETCにする",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

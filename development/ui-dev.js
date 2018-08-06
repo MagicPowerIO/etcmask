@@ -2,7 +2,7 @@
  *
  * This is a utility module.
  * It initializes a minimalist browserifiable project
- * that contains the Metamask UI, with a mocked state.
+ * that contains the ETCMask UI, with a mocked state.
  *
  * Includes a state menu for switching between different
  * mocked states, along with query param support,

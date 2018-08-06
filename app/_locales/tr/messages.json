@@ -266,7 +266,7 @@
       "message": "Parolalar eşleşmiyor"
     },
     "etherscanView": {
-      "message": "Hesabı Etherscan üzerinde izle"
+      "message": "Hesabı Gastracker üzerinde izle"
     },
     "exchangeRate": {
       "message": "Döviz kuru"
@@ -852,7 +852,7 @@
       "message": "Yeni UI (Beta)'ya hoşgeldiniz"
     },
     "uiWelcomeMessage": {
-      "message": "Şu anda yeni Metamask UI kullanmaktasınız. Gözatın, jeton gönderme gibi yeni özellikleri deneyin ve herhangi bir sorunlar karşılaşırsanız bize haber verin"
+      "message": "Şu anda yeni ETCMask UI kullanmaktasınız. Gözatın, jeton gönderme gibi yeni özellikleri deneyin ve herhangi bir sorunlar karşılaşırsanız bize haber verin"
     },
     "unapproved": {
       "message": "Onaylanmadı"

@@ -272,7 +272,7 @@
     "message": "Ingresa tu contraseña para confirmar"
   },
   "etherscanView": {
-    "message": "Ver la cuenta en Etherscan"
+    "message": "Ver la cuenta en Gastracker"
   },
   "exchangeRate": {
     "message": "Tipo de cambio"
@@ -874,7 +874,7 @@
     "message": "Advertencia"
   },
   "welcomeBeta": {
-    "message": "Bienvenido a Metamask Beta"
+    "message": "Bienvenido a ETCMask Beta"
   },
   "whatsThis": {
     "message": "¿Qué es esto?"

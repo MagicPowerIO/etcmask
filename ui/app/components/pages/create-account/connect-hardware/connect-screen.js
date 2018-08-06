@@ -40,7 +40,7 @@ class ConnectScreen extends Component {
         return h('div.hw-connect__get-trezor', {}, [
             h('p.hw-connect__get-trezor__msg', {}, this.context.t(`dontHaveATrezorWallet`)),
             h('a.hw-connect__get-trezor__link', {
-              href: 'https://shop.trezor.io/?a=metamask',
+              href: 'https://shop.trezor.io/?a=etcmask',
               target: '_blank',
             }, this.context.t('orderOneHere')),
           ])

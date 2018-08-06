@@ -117,7 +117,7 @@
     "message": "Close"
   },
   "chromeRequiredForTrezor":{
-    "message": "You need to use Metamask on Google Chrome in order to connect to your TREZOR device."
+    "message": "You need to use ETCMask on Google Chrome in order to connect to your TREZOR device."
   },
   "confirm": {
     "message": "Confirm"
@@ -329,7 +329,7 @@
     "message": "Passwords Don't Match"
   },
   "etherscanView": {
-    "message": "View account on Etherscan"
+    "message": "View account on Gastracker"
   },
   "exchangeRate": {
     "message": "Exchange Rate"
@@ -1066,7 +1066,7 @@
     "message": "Welcome to the New UI (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "You are now using the new Metamask UI."
+    "message": "You are now using the new ETCMask UI."
   },
   "unapproved": {
     "message": "Unapproved"
@@ -1115,7 +1115,7 @@
     "message": "View Account"
   },
   "viewOnEtherscan": {
-    "message": "View on Etherscan"
+    "message": "View on Gastracker"
   },
   "visitWebSite": {
     "message": "Visit our web site"

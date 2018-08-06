@@ -2,7 +2,7 @@
  *
  * This is a utility module.
  * It initializes a minimalist browserifiable project
- * that contains the Metamask UI, with a local background process.
+ * that contains the ETCMask UI, with a local background process.
  *
  * Includes a state reset button for restoring to initial state.
  *

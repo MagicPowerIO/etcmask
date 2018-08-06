@@ -10,7 +10,7 @@ You can switch the current account with the switch account button in the top rig
 
 Your account vault is encrypted and locally stored within your browser, meaning no account information ever touches our servers. However, with your secret phrase, you can easily restore your vault with the same accounts.
 
-At first glance, Metamask enables you to send ether like a normal wallet application, but Metamask's true strength lies in enabling your browser to visit Ethereum Classic enabled websites.
+At first glance, ETCMask enables you to send ether like a normal wallet application, but Metamask's true strength lies in enabling your browser to visit Ethereum Classic enabled websites.
 
 Here’s a simple Ethereum distributed app, or Ðapp, called Tokens, that lets you easily deploy your own currency.
 
@@ -26,7 +26,7 @@ MetaMask connects to these blockchains with no synchronization time because we h
 
 And that’s how ETCMask lets ordinary websites talk to a trusted Ethereum Classic provider, all while letting the user store and manage their own private keys. We hope this will make it easier than ever for people to get started creating and using a new wave of blockchain-enabled websites.
 
-If you’d like to get started with Metamask right now, go ahead and click here to get the Chrome extension.
+If you’d like to get started with ETCMask right now, go ahead and click here to get the Chrome extension.
 
 If you’d like to learn more about ETCMask, you can visit our website at metamask.io.
 
