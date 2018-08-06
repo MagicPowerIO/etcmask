@@ -528,7 +528,7 @@ function bundleTask (opts) {
         .pipe(sourcemaps.init({ loadMaps: true }))
     }
 
-    Minification
+    // Minification
     if (opts.minifyBuild) {
       buildStream = buildStream
       .pipe(uglify({
