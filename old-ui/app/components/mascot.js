@@ -35,9 +35,12 @@ Mascot.prototype.componentDidMount = function () {
   var targetDivId = 'metamask-mascot-container'
   var container = document.getElementById(targetDivId)
   // container.appendChild(this.logo.container)
+  this.componentWillUnmount()
   var logoImg = document.createElement("img")
   logoImg.src = "./images/icon-200.png"
   container.appendChild(logoImg)
+
+  this.componentWillUnmount()
 }
 
 Mascot.prototype.componentWillUnmount = function () {
