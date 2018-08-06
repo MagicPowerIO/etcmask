@@ -36,7 +36,7 @@ By utilizing the Service or interacting with the Content or platform in any way,
 
 ### 5.3 Risk of Regulatory Actions in One or More Jurisdictions ###
 
-MetaMask and ETH could be impacted by one or more regulatory inquiries or regulatory action, which could impede or limit the ability of MetaMask to continue to develop, or which could impede or limit your ability to access or use the Service or Ethereum blockchain.
+ETCMask and ETC could be impacted by one or more regulatory inquiries or regulatory action, which could impede or limit the ability of ETCMask to continue to develop, or which could impede or limit your ability to access or use the Service or Ethereum blockchain.
 
 ### 5.4 Risk of Weaknesses or Exploits in the Field of Cryptography ###
 

@@ -541,7 +541,7 @@
     "message": "대상"
   },
   "toETHviaShapeShift": {
-    "message": "ShapeShift를 통해 $1를 ETH로 바꾸기",
+    "message": "ShapeShift를 통해 $1를 ETC로 바꾸기",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenBalance": {

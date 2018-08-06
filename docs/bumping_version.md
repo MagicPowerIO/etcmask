@@ -1,4 +1,4 @@
-# How to Bump MetaMask's Version Automatically
+# How to Bump ETCMask's Version Automatically
 
 ```
 npm run version:bump patch

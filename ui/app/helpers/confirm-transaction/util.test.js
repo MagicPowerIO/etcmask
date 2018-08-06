@@ -93,7 +93,7 @@ describe('Confirm Transaction utils', () => {
   })
 
   describe('getTransactionAmount', () => {
-    it('should get the transaction amount in ETH', () => {
+    it('should get the transaction amount in ETC', () => {
       const ethTransactionAmount = utils.getTransactionAmount({
         value: '0xde0b6b3a7640000', toCurrency: 'ETH', conversionRate: 468.58, numberOfDecimals: 6,
       })
@@ -111,7 +111,7 @@ describe('Confirm Transaction utils', () => {
   })
 
   describe('getTransactionFee', () => {
-    it('should get the transaction fee in ETH', () => {
+    it('should get the transaction fee in ETC', () => {
       const ethTransactionFee = utils.getTransactionFee({
         value: '0x1319718a5000', toCurrency: 'ETH', conversionRate: 468.58, numberOfDecimals: 6,
       })

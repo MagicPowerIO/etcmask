@@ -30,7 +30,7 @@
     "message": "数量 + Gas"
   },
   "appDescription": {
-    "message": "以太坊浏览器插件",
+    "message": "以太坊经典浏览器插件",
     "description": "The description of the application"
   },
   "appName": {
@@ -190,7 +190,7 @@
     "message": "精确小数点"
   },
   "defaultNetwork": {
-    "message": "默认以太坊交易网络为主网。"
+    "message": "默认以太坊经典交易网络为主网。"
   },
   "denExplainer": {
     "message": "你的 DEN 是存储在 MetaMask 中的已加密密码。"
@@ -477,13 +477,13 @@
     "message": "助记词只有小写字符"
   },
   "mainnet": {
-    "message": "以太坊主网络"
+    "message": "以太坊经典主网络"
   },
   "message": {
     "message": "消息"
   },
   "metamaskDescription": {
-    "message": "ETCMask is a secure identity vault for Ethereum."
+    "message": "ETCMask is a secure identity vault for Ethereum Classic."
   },
   "metamaskSeedWords": {
     "message": "ETCMask 助记词"
@@ -498,7 +498,7 @@
     "message": "至少选择一种代币."
   },
   "needEtherInWallet": {
-    "message": "使用 MetaMask 与 DAPP 交互，需要你的钱包里有 Ether。"
+    "message": "使用 ETCMask 与 DAPP 交互，需要你的钱包里有 Ether。"
   },
   "needImportFile": {
     "message": "必须选择导入一个文件。",
@@ -509,7 +509,7 @@
     "description": "Password and file needed to import an account"
   },
   "negativeETH": {
-    "message": "Can not send negative amounts of ETH."
+    "message": "Can not send negative amounts of ETC."
   },
   "networks": {
     "message": "网络"
@@ -674,7 +674,7 @@
     "message": "当前 RPC"
   },
   "connectingToMainnet": {
-    "message": "正在连接到以太坊主网"
+    "message": "正在连接到以太坊经典主网"
   },
   "connectingToRopsten": {
     "message": "正在连接到Ropsten测试网络"
@@ -739,19 +739,19 @@
     "message": "发送"
   },
   "sendETH": {
-    "message": "发送 ETH"
+    "message": "发送 ETC"
   },
   "sendTokens": {
     "message": "发送 代币"
   },
   "onlySendToEtherAddress": {
-    "message": "只发送 ETH 给一个以太坊地址"
+    "message": "只发送 ETC 给一个以太坊经典地址"
   },
   "searchTokens": {
     "message": "搜索代币"
   },
   "sendTokensAnywhere": {
-    "message": "将代币发送给拥有以太坊地址的任何人"
+    "message": "将代币发送给拥有以太坊经典地址的任何人"
   },
   "settings": {
     "message": "设置"
@@ -826,7 +826,7 @@
     "message": "至"
   },
   "toETHviaShapeShift": {
-    "message": "$1 ETH 通过 ShapeShift",
+    "message": "$1 ETC 通过 ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {

@@ -38,13 +38,13 @@ const getEnvironmentType = (url = window.location.href) => {
 }
 
 /**
- * Checks whether a given balance of ETH, represented as a hex string, is sufficient to pay a value plus a gas fee
+ * Checks whether a given balance of ETC, represented as a hex string, is sufficient to pay a value plus a gas fee
  *
  * @param {object} txParams Contains data about a transaction
  * @param {string} txParams.gas The gas for a transaction
  * @param {string} txParams.gasPrice The price per gas for the transaction
- * @param {string} txParams.value The value of ETH to send
- * @param {string} hexBalance A balance of ETH represented as a hex string
+ * @param {string} txParams.value The value of ETC to send
+ * @param {string} hexBalance A balance of ETC represented as a hex string
  * @returns {boolean} Whether the balance is greater than or equal to the value plus the value of gas times gasPrice
  *
  */
