@@ -79,10 +79,24 @@ module.exports = class NetworkController extends EventEmitter {
     if (!this.ethQuery || !this.ethQuery.sendAsync) {
       return log.warn('NetworkController - lookupNetwork aborted due to missing ethQuery')
     }
-    this.ethQuery.sendAsync({ method: 'net_version' }, (err, network) => {
-      if (err) return this.setNetworkState('loading')
-      log.info('web3.getNetwork returned ' + network)
-      this.setNetworkState(network)
+
+    // Geth - eth_chainId
+    // Parity - parity_chainId
+    this.ethQuery.sendAsync({ method: 'eth_chainId' }, (err, network) => {
+      if (err) {
+        this.ethQuery.sendAsync({ method: 'parity_chainId' }, (err2, network2) => {
+          if (err2) {
+            return this.setNetworkState('loading')
+          } else {
+            log.info('web3.getNetwork 2 returned ' + network2)
+            this.setNetworkState(network2)
+          }
+        })
+
+      } else {
+        log.info('web3.getNetwork returned ' + network)
+        this.setNetworkState(network)
+      }
     })
   }
 
