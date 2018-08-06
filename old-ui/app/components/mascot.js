@@ -12,8 +12,8 @@ function Mascot () {
   this.logo = metamaskLogo({
     followMouse: true,
     pxNotRatio: true,
-    width: 200,
-    height: 200,
+    width: 0,
+    height: 0,
   })
 
   this.refollowMouse = debounce(this.logo.setFollowMouse.bind(this.logo, true), 1000)
