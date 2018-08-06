@@ -10,7 +10,7 @@ You can switch the current account with the switch account button in the top rig
 
 Your account vault is encrypted and locally stored within your browser, meaning no account information ever touches our servers. However, with your secret phrase, you can easily restore your vault with the same accounts.
 
-At first glance, ETCMask enables you to send ether like a normal wallet application, but Metamask's true strength lies in enabling your browser to visit Ethereum Classic enabled websites.
+At first glance, ETCMask enables you to send ether like a normal wallet application, but ETCMask's true strength lies in enabling your browser to visit Ethereum Classic enabled websites.
 
 Here’s a simple Ethereum distributed app, or Ðapp, called Tokens, that lets you easily deploy your own currency.
 
@@ -20,7 +20,7 @@ After you submit a transaction, wait for the next block for the change to be ref
 
 Now I have my own ETCMaskCoins! I can check my balance or, if I want to send some to another account, I can click the copy link on it. I check its balance, see it has none, then send it some meta-coins!
 
-This has been nice, but it’s all been on the Morden test net. But with Metamask, I can always switch what network I’m working on, say the main network, and I’m ready issue a token with the full security of the main Ethereum Classic blockchain.
+This has been nice, but it’s all been on the Morden test net. But with ETCMask, I can always switch what network I’m working on, say the main network, and I’m ready issue a token with the full security of the main Ethereum Classic blockchain.
 
 MetaMask connects to these blockchains with no synchronization time because we host blockchain nodes by default. You can always point ETCMask at your own Ethereum Classic RPC Server, and fully control your connection to the blockchain.
 
@@ -30,5 +30,5 @@ If you’d like to get started with ETCMask right now, go ahead and click here t
 
 If you’d like to learn more about ETCMask, you can visit our website at metamask.io.
 
-You’re also welcome to join our slack, follow our twitter or read our source code. You can find all of those links and more at Metamask.io
+You’re also welcome to join our slack, follow our twitter or read our source code. You can find all of those links and more at ETCMask.io
 

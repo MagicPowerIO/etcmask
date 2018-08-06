@@ -22,7 +22,7 @@ MetaMask is a global platform and by accessing the Content or Services, you are 
 
 ## 4 Account Password and Security ##
 
-When setting up an account within MetaMask, you will be responsible for keeping your own account secrets, which may be a twelve-word seed phrase, an account file, or other locally stored secret information. MetaMask encrypts this information locally with a password you provide, that we never send to our servers. You agree to (a) never use the same password for MetaMask that you have ever used outside of this service; (b) keep your secret information and password confidential and do not share them with anyone else; (c) immediately notify MetaMask of any unauthorized use of your account or breach of security. MetaMask cannot and will not be liable for any loss or damage arising from your failure to comply with this section.
+When setting up an account within ETCMask, you will be responsible for keeping your own account secrets, which may be a twelve-word seed phrase, an account file, or other locally stored secret information. MetaMask encrypts this information locally with a password you provide, that we never send to our servers. You agree to (a) never use the same password for MetaMask that you have ever used outside of this service; (b) keep your secret information and password confidential and do not share them with anyone else; (c) immediately notify MetaMask of any unauthorized use of your account or breach of security. MetaMask cannot and will not be liable for any loss or damage arising from your failure to comply with this section.
 
 ## 5. Representations, Warranties, and Risks ##
 

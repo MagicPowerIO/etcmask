@@ -118,7 +118,7 @@ setupMetamaskMeshMetrics()
  * @property {string} currentLocale - A locale string matching the user's preferred display language.
  * @property {Object} provider - The current selected network provider.
  * @property {string} provider.rpcTarget - The address for the RPC API, if using an RPC API.
- * @property {string} provider.type - An identifier for the type of network selected, allows MetaMask to use custom provider strategies for known networks.
+ * @property {string} provider.type - An identifier for the type of network selected, allows ETCMask to use custom provider strategies for known networks.
  * @property {string} network - A stringified number of the current network ID.
  * @property {Object} accounts - An object mapping lower-case hex addresses to objects with "balance" and "address" keys, both storing hex string values.
  * @property {hex} currentBlockGasLimit - The most recently seen block gas limit, in a lower case hex prefixed string.
@@ -146,12 +146,12 @@ setupMetamaskMeshMetrics()
 
 /**
  * @typedef VersionedData
- * @property {MetaMaskState} data - The data emitted from MetaMask controller, or used to initialize it.
+ * @property {MetaMaskState} data - The data emitted from ETCMask controller, or used to initialize it.
  * @property {Number} version - The latest migration version that has been run.
  */
 
 /**
- * Initializes the MetaMask controller, and sets up all platform configuration.
+ * Initializes the ETCMask controller, and sets up all platform configuration.
  * @returns {Promise} Setup complete.
  */
 async function initialize () {
@@ -169,7 +169,7 @@ async function initialize () {
 /**
  * Loads any stored data, prioritizing the latest storage strategy.
  * Migrates that data schema in case it was last loaded on an older version.
- * @returns {Promise<MetaMaskState>} Last data emitted from previous instance of MetaMask.
+ * @returns {Promise<MetaMaskState>} Last data emitted from previous instance of ETCMask.
  */
 async function loadStateFromPersistence () {
   // migrations
@@ -234,7 +234,7 @@ async function loadStateFromPersistence () {
 }
 
 /**
- * Initializes the MetaMask Controller with any initial state and default language.
+ * Initializes the ETCMask Controller with any initial state and default language.
  * Configures platform-specific error reporting strategy.
  * Streams emitted state updates to platform-specific storage strategy.
  * Creates platform listeners for new Dapps/Contexts, and sets up their data connections to the controller.
@@ -245,7 +245,7 @@ async function loadStateFromPersistence () {
  */
 function setupController (initState, initLangCode) {
   //
-  // MetaMask Controller
+  // ETCMask Controller
   //
 
   const controller = new MetamaskController({
@@ -341,7 +341,7 @@ function setupController (initState, initLangCode) {
    */
 
   /**
-   * Connects a Port to the MetaMask controller via a multiplexed duplex stream.
+   * Connects a Port to the ETCMask controller via a multiplexed duplex stream.
    * This method identifies trusted (MetaMask) interfaces, and connects them differently from untrusted (web pages).
    * @param {Port} remotePort - The port provided by a new context.
    */
@@ -440,7 +440,7 @@ function triggerUi () {
   })
 }
 
-// On first install, open a window to MetaMask website to how-it-works.
+// On first install, open a window to ETCMask website to how-it-works.
 extension.runtime.onInstalled.addListener(function (details) {
   if ((details.reason === 'install') && (!METAMASK_DEBUG)) {
     // extension.tabs.create({url: 'https://metamask.io/#how-it-works'})

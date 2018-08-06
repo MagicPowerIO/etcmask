@@ -35,7 +35,7 @@ module.exports = class NewUiAnnouncement extends PureComponent {
         h('section.new-ui-announcement__body', [
           h('h1', 'A New Version of ETCMask'),
           h('p', [
-            "We're excited to announce a brand-new version of MetaMask with enhanced features and functionality.",
+            "We're excited to announce a brand-new version of ETCMask with enhanced features and functionality.",
           ]),
           h('div.updates-list', [
             h('h2', 'Updates include'),
@@ -50,7 +50,7 @@ module.exports = class NewUiAnnouncement extends PureComponent {
             ]),
           ]),
           h('p', [
-            'You can still use the current version of MetaMask. The new version is still in beta, ' +
+            'You can still use the current version of ETCMask. The new version is still in beta, ' +
             'however we encourage you to try it out as we transition into this exciting new update.',
             h('span', {
               dangerouslySetInnerHTML: {

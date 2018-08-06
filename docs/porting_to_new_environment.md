@@ -82,7 +82,7 @@ Since `background.js` is essentially the Extension setup file, we can see it doi
 Everything so far has been enough to create a ETCMask wallet on virtually any platform that runs JS, but ETCMask's most unique feature isn't being a wallet, it's providing an Ethereum-enabled JavaScript context to websites.
 
 MetaMask has two kinds of [duplex stream APIs](https://github.com/substack/stream-handbook#duplex) that it exposes:
-- [metamask.setupTrustedCommunication(connectionStream, originDomain)](https://github.com/MetaMask/metamask-extension/blob/master/app/scripts/metamask-controller.js#L352) - This stream is used to connect the user interface over a remote port, and may not be necessary for contexts where the interface and the metamask-controller share a process.
+- [metamask.setupTrustedCommunication(connectionStream, originDomain)](https://github.com/MetaMask/metamask-extension/blob/master/app/scripts/metamask-controller.js#L352) - This stream is used to connect the user interface over a remote port, and may not be necessary for contexts where the interface and the etcmask-controller share a process.
 - [metamask.setupUntrustedCommunication(connectionStream, originDomain)](https://github.com/MetaMask/metamask-extension/blob/master/app/scripts/metamask-controller.js#L337) - This method is used to connect a new web site's web3 API to ETCMask's blockchain connection. Additionally, the `originDomain` is used to block detected phishing sites.
 
 ### Web3 as a Stream

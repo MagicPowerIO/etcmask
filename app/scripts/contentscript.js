@@ -16,7 +16,7 @@ const inpageBundle = inpageContent + inpageSuffix
 //
 // But for now that is only Firefox
 // If we create a FireFox-only code path using that API,
-// MetaMask will be much faster loading and performant on Firefox.
+// ETCMask will be much faster loading and performant on Firefox.
 
 if (shouldInjectWeb3()) {
   setupInjection()
